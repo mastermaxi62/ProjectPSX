@@ -15,7 +15,7 @@ namespace ProjectPSX.OpenTK {
             NativeWindowSettings nativeWindow = new NativeWindowSettings();
             nativeWindow.API = ContextAPI.OpenGL;
             nativeWindow.Size = new Vector2i(1024, 512);
-            nativeWindow.Title = "ProjectPSX";
+            nativeWindow.Title = "ProjectPSX2";
             nativeWindow.Profile = ContextProfile.Compatability;
 
             Window window = new Window(settings, nativeWindow);
